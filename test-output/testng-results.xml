@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-14T13:38:12 IST" name="Suite" finished-at="2023-03-14T13:39:21 IST" duration-ms="68471">
+    <groups>
+    </groups>
+    <test started-at="2023-03-14T13:38:12 IST" name="Test" finished-at="2023-03-14T13:39:21 IST" duration-ms="68471">
+      <class name="testcases.VerifyFooter">
+        <test-method is-config="true" signature="openurl()[pri:0, instance:testcases.VerifyFooter@59309333]" started-at="2023-03-14T13:38:40 IST" name="openurl" finished-at="2023-03-14T13:38:48 IST" duration-ms="7961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="footer()[pri:0, instance:testcases.VerifyFooter@59309333]" started-at="2023-03-14T13:38:48 IST" name="footer" finished-at="2023-03-14T13:38:55 IST" duration-ms="6880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footer -->
+      </class> <!-- testcases.VerifyFooter -->
+      <class name="testcases.VerifyHeaderr">
+        <test-method is-config="true" signature="openurl()[pri:0, instance:testcases.VerifyHeaderr@479d31f3]" started-at="2023-03-14T13:38:12 IST" name="openurl" finished-at="2023-03-14T13:38:21 IST" duration-ms="9221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="Header()[pri:0, instance:testcases.VerifyHeaderr@479d31f3]" started-at="2023-03-14T13:38:21 IST" name="Header" finished-at="2023-03-14T13:38:40 IST" duration-ms="18664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Header -->
+      </class> <!-- testcases.VerifyHeaderr -->
+      <class name="testcases.VerifyMenubar">
+        <test-method is-config="true" signature="openurl()[pri:0, instance:testcases.VerifyMenubar@5876a9af]" started-at="2023-03-14T13:38:55 IST" name="openurl" finished-at="2023-03-14T13:39:03 IST" duration-ms="8033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="Menubar()[pri:0, instance:testcases.VerifyMenubar@5876a9af]" started-at="2023-03-14T13:39:03 IST" name="Menubar" finished-at="2023-03-14T13:39:08 IST" duration-ms="5318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Menubar -->
+      </class> <!-- testcases.VerifyMenubar -->
+      <class name="testcases.Verify_Cart">
+        <test-method is-config="true" signature="openurl()[pri:0, instance:testcases.Verify_Cart@7ec7ffd3]" started-at="2023-03-14T13:39:08 IST" name="openurl" finished-at="2023-03-14T13:39:16 IST" duration-ms="7519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="cart()[pri:0, instance:testcases.Verify_Cart@7ec7ffd3]" started-at="2023-03-14T13:39:16 IST" name="cart" finished-at="2023-03-14T13:39:21 IST" duration-ms="4824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+      </class> <!-- testcases.Verify_Cart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
