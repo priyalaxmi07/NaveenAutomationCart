@@ -11,8 +11,11 @@ public class Verify_Cart extends Baseclass{
 
 	@Test
 	public void cart() throws InterruptedException {
+		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	ProductCart_ObjectModel pom = new 	ProductCart_ObjectModel(driver);
+   
+
 		driver.manage().window().maximize();
 		
 		//HTC_Touch_HD

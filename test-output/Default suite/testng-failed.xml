@@ -3,12 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.VerifyFooter">
+      <class name="testcases.VerifyHeaderr">
         <methods>
+          <include name="Header"/>
           <include name="openurl"/>
-          <include name="footer"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- testcases.VerifyFooter -->
+      </class> <!-- testcases.VerifyHeaderr -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

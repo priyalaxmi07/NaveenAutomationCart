@@ -40,8 +40,8 @@ public class FooterObjectModel {
 	   public WebElement  clickPrivecypolicy() {
 		return driver.findElement(PrivacyPolicy);
 	}
-	    public WebElement  ClickTermCondition() {
-		return driver.findElement(TermsConditions);
+	  public WebElement  ClickTermCondition() {
+	return driver.findElement(TermsConditions);
 	}
 	public WebElement clkContact() {
 		return driver.findElement(Contact);
@@ -60,25 +60,25 @@ public class FooterObjectModel {
 	public WebElement clickAffiliate() {
 	return driver.findElement(Affiliate);
 	 }
-	  public WebElement clkNews() {
-		return driver.findElement(News);
-	 }
-	   public WebElement  ClickOrder() {
-		return driver.findElement(Order);
+	 public WebElement clkNews() {
+	return driver.findElement(News);
 	  }
-	     public WebElement  ClickGiftCertificates() {
-		return driver.findElement(GiftCertificates);
+	  public WebElement  ClickOrder() {
+	  return driver.findElement(Order);
 	  }
-	     public WebElement  enterName() {
-	 	return driver.findElement(Name);
-}
-	     public WebElement  enterMail() {
-		 return driver.findElement(Email_id);
+	  public WebElement  ClickGiftCertificates() {
+	  return driver.findElement(GiftCertificates);
+      }
+	  public WebElement  enterName() {
+	 return driver.findElement(Name);
+       }
+	   public WebElement  enterMail() {
+	 return driver.findElement(Email_id);
 	     }
-	     public WebElement  enterEnqury() {
-		 return driver.findElement(Enqury);
+	  public WebElement  enterEnqury() {
+	 return driver.findElement(Enqury);
 	     }
-	     public WebElement ClickSubmit() {
-	    	 return driver.findElement(Submit);
+	   public WebElement ClickSubmit() {
+	   return driver.findElement(Submit);
 }
 }

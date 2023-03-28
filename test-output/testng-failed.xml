@@ -3,12 +3,42 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="testcases.VerifyHeaderr">
+        <methods>
+          <include name="Header"/>
+          <include name="openurl"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.VerifyHeaderr -->
+      <class name="testcases.VerifyMenubar">
+        <methods>
+          <include name="openurl"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="Menubar"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.VerifyMenubar -->
       <class name="testcases.VerifyFooter">
         <methods>
           <include name="openurl"/>
+          <include name="endReport"/>
           <include name="footer"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- testcases.VerifyFooter -->
+      <class name="testcases.Verify_Cart">
+        <methods>
+          <include name="openurl"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="cart"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.Verify_Cart -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

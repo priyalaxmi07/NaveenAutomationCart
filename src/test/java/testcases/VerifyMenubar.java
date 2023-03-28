@@ -10,6 +10,7 @@ public class VerifyMenubar extends Baseclass {
 	public void Menubar() {
 		
 		MenubarObjectModel obj1=new MenubarObjectModel(driver);
+
 		driver.manage().window().maximize();
 		obj1.ClickDesktop().click();
 		obj1.Clicksee().click();

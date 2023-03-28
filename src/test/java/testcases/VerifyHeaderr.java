@@ -39,7 +39,7 @@ public class VerifyHeaderr extends Baseclass {
 	obj1.ClickloginPage();
 	//obj1.clklogout().click();
 	obj1.clkcart();
-obj1.ClickChekout().click();
+    obj1.ClickChekout().click();
 
 	}
 }
