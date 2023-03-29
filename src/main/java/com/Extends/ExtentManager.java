@@ -24,9 +24,9 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 		  extent = new ExtentReports();
 		  extent.attachReporter(htmlReporter);
-		  extent.setSystemInfo("hostname", "Kundan");
-		  extent.setSystemInfo("os", "windows10");
-		  extent.setSystemInfo("testerName", "kundan");
+		  extent.setSystemInfo("hostname", "localhost");
+		  extent.setSystemInfo("os", "windows11");
+		  extent.setSystemInfo("testerName", "priya");
 		  extent.setSystemInfo("Browser", "Chrome");
 		 }
 		  public static void endReport() {
